@@ -50,16 +50,15 @@ namespace HomeTask_3
 
                 Taxi someAnotherTaxi = new Taxi(); 
                 tax.Clone(tax, someAnotherTaxi);       
-               // Console.WriteLine(someAnotherTaxi.Name);
-
+             
                 Taxi[] taxis = new Taxi[amountNumber];
                 for (int i = 0; i < taxis.Length; i++ )
                 {
                     taxis[i] = new Taxi();
-                    tax.Name = "Lastochka" + (i+1);
+                    Console.WriteLine($"Введіть назву таксі {i+1} ");
+                    tax.Name = Console.ReadLine();
                     tax.Clone(tax, taxis[i]);
                 }
-
 
                 Console.WriteLine($"За вами виїхали машини таксі у кількості {amountNumber} штук");
                 foreach (Taxi taxi in taxis)
@@ -74,17 +73,15 @@ namespace HomeTask_3
 
                 Tram someAnotherTram = new Tram();
                 trami.Clone(trami, someAnotherTram);
-              //  Console.WriteLine(someAnotherTram.Name);
-
+              
                 Tram[] trams = new Tram[amountNumber];
                 for (int i = 0; i < trams.Length; i++)
                 {
                     trams[i] = new Tram();
-                    trami.Name = "Cucarachas_tram" + (i+1);
+                    Console.WriteLine($"Введіть назву тамвайчика {i + 1} ");
+                    trami.Name = Console.ReadLine();
                     trami.Clone(trami, trams[i]);
                 }
-
-
                 Console.WriteLine($"У місто виїхали трамваї у кількості {amountNumber} штук");
                 foreach (Tram tram in trams)
                 {
