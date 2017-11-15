@@ -1,0 +1,7 @@
+E:\IT\Visual_Sharp\HOME_TASKS\HomeTask_3\HomeTask_3\HomeTask_3\obj\Debug\HomeTask_3.csprojResolveAssemblyReference.cache
+E:\IT\Visual_Sharp\HOME_TASKS\HomeTask_3\HomeTask_3\HomeTask_3\obj\Debug\HomeTask_3.csproj.CoreCompileInputs.cache
+E:\IT\Visual_Sharp\HOME_TASKS\HomeTask_3\HomeTask_3\HomeTask_3\bin\Debug\HomeTask_3.exe.config
+E:\IT\Visual_Sharp\HOME_TASKS\HomeTask_3\HomeTask_3\HomeTask_3\bin\Debug\HomeTask_3.exe
+E:\IT\Visual_Sharp\HOME_TASKS\HomeTask_3\HomeTask_3\HomeTask_3\bin\Debug\HomeTask_3.pdb
+E:\IT\Visual_Sharp\HOME_TASKS\HomeTask_3\HomeTask_3\HomeTask_3\obj\Debug\HomeTask_3.exe
+E:\IT\Visual_Sharp\HOME_TASKS\HomeTask_3\HomeTask_3\HomeTask_3\obj\Debug\HomeTask_3.pdb
