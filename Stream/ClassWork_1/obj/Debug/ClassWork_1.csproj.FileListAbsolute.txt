@@ -1,0 +1,14 @@
+E:\Visual_Sharp\HOME_TASKS\ClassWork_1\ClassWork_1\ClassWork_1\obj\Debug\ClassWork_1.csprojResolveAssemblyReference.cache
+E:\Visual_Sharp\HOME_TASKS\ClassWork_1\ClassWork_1\ClassWork_1\obj\Debug\ClassWork_1.csproj.CoreCompileInputs.cache
+E:\Visual_Sharp\HOME_TASKS\ClassWork_1\ClassWork_1\ClassWork_1\bin\Debug\ClassWork_1.exe.config
+E:\Visual_Sharp\HOME_TASKS\ClassWork_1\ClassWork_1\ClassWork_1\bin\Debug\ClassWork_1.exe
+E:\Visual_Sharp\HOME_TASKS\ClassWork_1\ClassWork_1\ClassWork_1\bin\Debug\ClassWork_1.pdb
+E:\Visual_Sharp\HOME_TASKS\ClassWork_1\ClassWork_1\ClassWork_1\obj\Debug\ClassWork_1.exe
+E:\Visual_Sharp\HOME_TASKS\ClassWork_1\ClassWork_1\ClassWork_1\obj\Debug\ClassWork_1.pdb
+E:\GIT\HomeTasks_C_Sharp\Stream\ClassWork_1\bin\Debug\ClassWork_1.exe.config
+E:\GIT\HomeTasks_C_Sharp\Stream\ClassWork_1\bin\Debug\ClassWork_1.exe
+E:\GIT\HomeTasks_C_Sharp\Stream\ClassWork_1\bin\Debug\ClassWork_1.pdb
+E:\GIT\HomeTasks_C_Sharp\Stream\ClassWork_1\obj\Debug\ClassWork_1.csprojResolveAssemblyReference.cache
+E:\GIT\HomeTasks_C_Sharp\Stream\ClassWork_1\obj\Debug\ClassWork_1.csproj.CoreCompileInputs.cache
+E:\GIT\HomeTasks_C_Sharp\Stream\ClassWork_1\obj\Debug\ClassWork_1.exe
+E:\GIT\HomeTasks_C_Sharp\Stream\ClassWork_1\obj\Debug\ClassWork_1.pdb
