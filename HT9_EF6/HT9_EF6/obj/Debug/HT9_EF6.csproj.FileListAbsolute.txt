@@ -1,0 +1,14 @@
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\bin\Debug\HT9_EF6.exe.config
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\bin\Debug\HT9_EF6.exe
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\bin\Debug\HT9_EF6.pdb
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\bin\Debug\EntityFramework.dll
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\bin\Debug\EntityFramework.xml
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\obj\Debug\HT9_EF6.csprojResolveAssemblyReference.cache
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\obj\Debug\HT9_EF6.csproj.CoreCompileInputs.cache
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\obj\Debug\HT9_EF6.exe
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\obj\Debug\HT9_EF6.pdb
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\obj\Debug\HT9_EF6.Migrations.AddMyMigration.resources
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\obj\Debug\HT9_EF6.csproj.GenerateResource.Cache
+E:\Visual_Sharp\HOME_TASKS\HT9_EF6\HT9_EF6\obj\Debug\HT9_EF6.Migrations.Add2Migration.resources
