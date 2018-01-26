@@ -31,16 +31,8 @@ namespace HT9_EF6
                         {
                             case 1:
                                 Console.WriteLine("Players Table:");
-                                ////////////////////////////////////////////////////
-                                //var orders = context.Orders.Include(c => c.IdClient).ToList();
-
-                                //foreach (var order in orders)
-                                //{
-                                //    Console.WriteLine($"{order.IdClient.FirstName} {order.Value}");
-                                //}
-                                ////////////////////////////////////////////////////
-                                
-                                foreach (var player in context.Players)
+                                var PlayersI = context.Players.Include(t => t.Team).ToList();
+                                foreach (var player in PlayersI)
                                 {
                                     Console.WriteLine($"Id: {player.Id} \n" +
                                                       $"FirstName: {player.FirstName} \n" +
