@@ -144,19 +144,19 @@ namespace HT9_EF6
                                         Console.WriteLine("Enter TeamId");
                                         string TeamIdStr2 = Console.ReadLine();
                                         int TeamId2 = Convert.ToInt32(TeamIdStr2);
-                                        context.Players.Add(new Player()
-                                        {
-                                            Id = player.Id,
-                                            FirstName = FirstName2,
-                                            LastName = LastName2,
-                                            PlayerNumber = PlayerNumber2,
-                                            Age = Age2,
-                                            TeamId = TeamId2
-                                        });
-                                        context.SaveChanges();
-                                        Console.WriteLine("Update is fixed");
+
+                                        player.Id = player.Id;
+                                        player.FirstName = FirstName2;
+                                        player.LastName = LastName2;
+                                        player.PlayerNumber = PlayerNumber2;
+                                        player.Age = Age2;
+                                        player.TeamId = TeamId2;
+
+                                        context.Entry(player).State = EntityState.Modified;
                                     }
                                 }
+                                context.SaveChanges();
+                                Console.WriteLine("Update is fixed");
                                 break;
                             case 4:
                                 Console.WriteLine("Enter team Id");
@@ -170,16 +170,17 @@ namespace HT9_EF6
                                         string Name2 = Console.ReadLine();
                                         Console.WriteLine("Enter Coach");
                                         string Coach2 = Console.ReadLine();
-                                        context.Teams.Add(new Team()
-                                        {
-                                            Id = team.Id,
-                                            Name = Name2,
-                                            Coach = Coach2
-                                        });
-                                        context.SaveChanges();
-                                        Console.WriteLine("Update is fixed");
+
+
+                                        team.Id = team.Id;
+                                        team.Name = Name2;
+                                        team.Coach = Coach2;
+
+                                        context.Entry(team).State = EntityState.Modified;
                                     }
                                 }
+                                context.SaveChanges();
+                                Console.WriteLine("Update is fixed");
                                 break;
                             case 5:
                                 Console.WriteLine("Enter player Id");
@@ -190,9 +191,9 @@ namespace HT9_EF6
                                     if (deleteplayerIdStr == strId)
                                     {
                                         context.Players.Remove(player);
-                                        context.SaveChanges();
                                     }
                                 }
+                                context.SaveChanges();
                                 break;
                             case 6:
                                 Console.WriteLine("Enter team Id");
@@ -205,12 +206,12 @@ namespace HT9_EF6
                                     {
                                         if (team != null)
                                         {
-                                            context.Database.ExecuteSqlCommand("ALTER TABLE dbo.Players ADD CONSTRAINT Players_Teams FOREIGN KEY (TeamId) REFERENCES dbo.Teams (Id) ON DELETE SET NULL");
+                                            //context.Database.ExecuteSqlCommand("ALTER TABLE dbo.Players ADD CONSTRAINT Players_Teams FOREIGN KEY (TeamId) REFERENCES dbo.Teams (Id) ON DELETE SET NULL");
                                             context.Teams.Remove(team);
-                                            context.SaveChanges();
                                         }
                                     }
                                 }
+                                context.SaveChanges();
                                 break;
                             default:
                                 Console.WriteLine("Wrong number");
